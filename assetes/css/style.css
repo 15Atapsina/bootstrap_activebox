@@ -1,0 +1,183 @@
+:root{
+    --primary-color: #333333;
+    --secondary-color: #ffffff;
+    --brand-color: #30C39E;
+    --main-color:#17A2B8;
+    --fs-1:16px;
+    --fs-2:18px;
+    --fs-3:20px;
+    --fs-4:22px;
+    --fs-5:24px;
+    --fs-6:26px;
+    --hs-1:65px;
+    --hs-2:45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my-30{
+    margin:30px 0px;
+}
+.py-160{
+    padding:160px 0px;
+}
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(../fonts/Segoe_UI.ttf);
+}
+header{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.navbar-brand .fa-rebel{
+    color:var(--brand-color);
+}
+.navbar-nav .nav-item .nav-link{
+    color:var(--secondary-color);
+}
+.navbar-brand h1{
+    font-size:32px;
+    font-weight: bold;
+    color:var(--secondary-color);
+}
+.navbar-nav .nav-link.active{
+    color:var(--brand-color);
+}
+.navbar .nav-link:focus, .navbar .nav-link:hover {
+    color: var(--brand-color);
+}
+.dropdown-menu .dropdown-item{
+    text-align: center;
+}
+/* banner start */
+/* banner text start */
+.area h3{
+    color:var(--secondary-color);
+   font-size:28px;
+}
+.area h1{
+    color: var(--brand-color);
+    font-size:80px;
+    font-weight: bold;
+}
+.area p{
+    line-height: 2;
+    color:var(--secondary-color);
+    font-size:16px;
+}
+.area a{
+    color: var(--secondary-color);
+    font-size:20px;
+    text-decoration: none;
+    border:2px solid var(--secondary-color);
+    padding: 10px 30px;
+    border-radius:5px;
+    font-weight: 600;
+    transition: .5s;
+}
+.area a:hover{
+    background: var(--brand-color);
+    border:2px solid var(--brand-color);
+}
+/* banner end */
+/* about us start */
+.about-inner h1{
+    font-size:32px;
+    color:var(--main-color);
+}
+.line{
+    background-color:var(--main-color);
+    border: 1px solid var(--main-color);
+    margin-bottom:20px;
+    height: 3px;
+    width: 30%;
+    display: inline-block;
+}
+.about-content-aside .btn-info {
+    color:#ffffff;
+    background-color:var(--main-color) ;
+    border-color:var(--main-color) ;
+    border: 1px solid ;
+    border-radius:0px;
+}
+.about-content-aside .btn-info:hover {
+    color: #000;
+    background-color: #fff;
+    border-color:var(--primary-color);
+}
+/* about us end */
+/* text start */
+.text{
+	background: #0a8ea0;
+}
+.text p {
+    margin: 0;
+    color: #ddd;
+    font-size:16px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.hire-content .btn-info {
+    color: #0A8EA0;
+    background-color: #fff;
+    border-color: #fff;
+}
+.hire-content .btn-info:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+.hire-content .btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+.hire-content .btn-primary:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
+}
+/* text end*/
+/* footer start */
+footer{
+    background-color:#191919;
+}
+footer ul li a {
+    height: 42px;
+    width: 42px;
+    color: #999;
+    background: #222;
+    display: inline-block;
+}
+footer ul li a i {
+    padding-top: 13px;
+}
+.list-inline-item .fa-brands{
+    color:grey;
+    transition: .5;
+    -webkit-transition: .5;
+    -moz-transition: .5;
+    -ms-transition: .5;
+    -o-transition: .5;
+}
+.list-inline-item .fa-brands:hover{
+    color:#fff;
+}
+.lastcontent{
+    color:grey;
+}
+.lastcontent a{
+    color:grey;
+    text-decoration: none;
+    transition: .5;
+    -webkit-transition: .5;
+    -moz-transition: .5;
+    -ms-transition: .5;
+    -o-transition: .5;
+}
+.lastcontent a:hover{
+color:#ffffff;
+}
+/* footer end */
